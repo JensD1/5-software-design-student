@@ -1,0 +1,16 @@
+package be.uantwerpen.sd.labs.lab4a.plants;
+
+public class Poplar implements Plant {
+    public String commonName() {
+        return "Poplar";
+    }
+
+    public double spacingMeters() {
+        return 2.5;
+    }
+
+    public String soilPreference() {
+        return "moist";
+    }
+}
+
